@@ -1,0 +1,146 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    font-style: oblique;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: inside;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: overline;
+    color:wheat;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color:red;
+  }
+  
+  section {
+    padding: 80px 0;
+  }
+  
+  section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color:gray;
+    color: whitesmoke;
+    padding: 10px 20px;
+    text-decoration: double;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  
+  #home {
+    background-image: url('https://i1.wp.com/static.web-backgrounds.net/uploads/2012/08/City_Landscape_Background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .overlay {
+    background-color: burlywood;
+    padding: 50px;
+    
+    
+  }
+  
+  #home h1 {
+    font-size: 48px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  #home h2 {
+    font-size: 24px;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-image img {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: 40px;
+  }
+  
+  .about-text p {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  
+  #skills ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    grid-gap: 40px;
+    margin-top: 40px;
+    font-size: medium;
+  }
+  
+  #skills li {
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  #skills li:hover {
+    color:salmon;
+  }
+  
+  
+
+  #contact a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  #contact a:hover {
+    color:rosybrown;
+  }
+  
+  
+  
