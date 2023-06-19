@@ -19,7 +19,7 @@
   }
   
   header {
-    background-color: #333;
+    background-color: black;
     color: #fff;
     padding: 20px;
   }
@@ -42,7 +42,7 @@
   }
   
   nav ul li a:hover {
-    color:red;
+    color:indianred;
   }
   
   section {
